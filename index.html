@@ -5,22 +5,58 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <div class="idvideo">
-            <video class="myvideo"></video>
+        <div class="videolist">
+            <div class="liitem">
+            </div>
+            <div class="liitem">
+            </div>
+            <div class="liitem">         
+            </div>
+            <div class="liitem">
+            </div>
         </div>
-        
-
+        <div class="clearflex"></div>
+        <div>
+            <div class="myitem" ></div>
+            <div class="myitem" ></div>
+            <div class="myitem" ></div>
+        </div>
+        <!-- <ul class="videolist">
+            <li class="liitem">
+            </li>
+            <li class="liitem">
+            </li>            
+            <li class="liitem">         
+            </li>
+            <li class="liitem">
+            </li>
+        </ul> -->
     </body>
     <style>
-        .idvideo{
-            /* padding: 2px; */
-            /* border: 1px solid green; */
+        .videolist{                                               
+            border: 1px solid greenyellow;                        
+        } 
+        .liitem{     
+            float: left;      
+            border: 1px solid red;             
+            width: 400px;
+            height: 225px;
+            margin-right: 4px;
+            margin-bottom: 4px;
         }
-        .myvideo{
-            width: 360px;
-            height: 203px;
-            border: 1px solid red;
+        .clearflex{
+            clear: both;
         }
+        .myitem{
+            float: left;            
+            width: 300px;
+            height: 125px;
+            border: 1px solid black;
+        }
+        .video{    
+            border: 1px solid blue;
+        }
+        
     </style>
     <script>
         async function MyDevices(){
